@@ -93,7 +93,7 @@ color: #757575;
 }
 .banner-part2 img{
     max-height: 100%;
-    margin-top: -14px!important;
+    margin-top: 5px!important;
 }
 .btn1{
     color:white;
@@ -187,7 +187,9 @@ color: #181818;
 .skill-img{
     height:44px;
     width:44px;
-  margin:5% 30px 0;
+  margin-top:5%;
+  margin-right:30px;
+  
 
 }
 h4.skill-header{
@@ -198,7 +200,7 @@ font-weight: 700;
 font-size: 20px;
 line-height: 27px;
 color: #181818;
-padding:20px 30px 10px 30px
+padding:20px 30px 10px 0px
 }
 .skill{
     display: flex;
@@ -230,7 +232,7 @@ line-height: 41px;
 margin-top:113px;
 margin-bottom: 30px;
 margin-right:379px;
-margin-left:230px;
+
 color: #474747;
 
 
@@ -242,7 +244,7 @@ font-weight: 700;
 font-size: 30px;
 line-height: 41px;
 margin-top:113px;
-margin-bottom: 30px;
+margin-bottom: 34px;
 margin-right:230px;
 
 color: #474747;
@@ -253,13 +255,13 @@ color: #474747;
     margin:0px 0px;
     padding-bottom:10px;
 border-bottom:1px solid #757575;
-width:55%;
+width:80%;
 margin-top: 4%;
-margin-left:230px;
+
 }
 .sub-edu11{
     margin:0px 0px;
-    padding-bottom:15px;
+    padding-bottom:10px;
 border-bottom:1px solid #757575;
 
 margin-top: 4%;
@@ -299,7 +301,7 @@ color: #757575;
 
 
 margin-top: 4%;
-margin-left:230px;
+
 }
 .sub-edu33{
    
@@ -313,10 +315,71 @@ margin-top:7%;
 .expert{
  
  display:flex;
- offset: 1;
+justify-content: space-between;
 
   
 }
+.education{
+    margin-left: 10%;
+}
 #expert{
     margin-top:250px;
+}
+.burton{
+    margin-top: 100px;
+}
+footer{
+    margin-top:243px;
+    background-color: #fff8f3;
+    padding-top:5%;
+}
+.footer-header1{
+    
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 35px;
+line-height: 48px;
+
+
+
+color: #181818;
+}
+.footer-p{
+    
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 28px;
+
+/* or 175% */
+
+/* Dark 02 */
+color: #474747;
+
+
+}
+.footer-icon{
+    margin-top: 24px;
+}
+.footer-icon a{
+    margin-right: 10px;
+}
+.footer2{
+    margin-left: 10%;
+}
+.footer2 input{
+    box-shadow: 0;
+    border: 0;
+    outline: none;
+    width:100%;
+    padding:2% 2%;
+}
+textarea{
+    padding:1%;
+    color:#757575;
+    box-shadow: 0;
+    border: 0;
+    outline: none;
 }
